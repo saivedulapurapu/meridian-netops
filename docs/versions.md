@@ -28,5 +28,5 @@ Exact versions Meridian was built and tested on. Update when anything is upgrade
 
 | Image | Version |
 |---|---|
-| Arista cEOS-lab | TBD (Phase 0) |
+| Arista cEOS-lab | 4.34.8M (cEOS64, Docker tag ceos:4.34.8M) |
 | FRR | TBD (Phase 0) |
