@@ -1,0 +1,47 @@
+# ===== Secrets: never commit =====
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.aws/
+credentials
+
+# ===== Terraform =====
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+.terraform.lock.hcl.bak
+
+# ===== Container images (large) =====
+*.tar
+*.tar.xz
+*.tar.gz
+*.img
+*.qcow2
+
+# ===== Containerlab runtime folders =====
+clab-*/
+.*.clab.yml.bak
+
+# ===== Python =====
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ===== Data stack (large/generated) =====
+data/volumes/
+*.parquet
+*.avro
+
+# ===== Editors / OS =====
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
